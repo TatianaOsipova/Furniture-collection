@@ -12,14 +12,15 @@
         height: 120px;
     }
 
-    &__btn{
+    &__btn {
         background-color: transparent;
         border: none;
         padding: 0;
+        cursor: pointer;
     }
 }
 
-.logo{
+.logo {
     margin: 0 auto;
 }
 
@@ -30,8 +31,14 @@
         display: flex;
     }
 
-    &__list-item{
+    &__list-item {
         padding-left: 35px;
         padding-right: 45px;
+    }
+
+    &__list-link {
+        @extend %title-font;
+        color: rgba(54, 56, 56, 0.9);
+        line-height: 22px;
     }
 }

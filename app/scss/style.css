@@ -81,4 +81,17 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 120px;
+}
+
+.logo {
+  margin: 0 auto;
+}
+
+.menu {
+  padding-left: 35px;
+  padding-right: 60px;
+}
+.menu__list {
+  display: flex;
 }/*# sourceMappingURL=style.css.map */

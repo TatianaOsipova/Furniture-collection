@@ -54,7 +54,7 @@
         justify-content: space-between;
     }
 
-    &__info{
+    &__info {
         width: 540px;
     }
 
@@ -67,6 +67,47 @@
 
     &__info-text {
         margin-bottom: 16px;
+        max-width: 475px;
+    }
+
+    &__info-email {
+        font-weight: 600;
+        font-size: 14px;
+        color: $title;
+        margin-bottom: 22px;
+        padding-left: 30px;
+        display: inline-block;
+    }
+
+    &__form {
+        display: flex;
+    }
+
+    &__form-input {
+        padding: 6px 10px 6px 18px;
+        border-radius: 21px;
+        background-color: transparent;
+        border: 1px solid rgba($title, .7);
+        width: 100%;
+        &::placeholder {
+            font-family: 'Open Sans', sans-serif;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 27px;
+            color: #A1A1A1;
+        }
+    }
+
+    &__form-button {
+        background-color: $title;
+        border: none;
+        color: #fffff0;
+        border-radius: 21px;
+        font-weight: 600;
+        padding: 6px 12px;
+        min-width: 160px;
+        margin-left: 9px;
+        cursor: pointer;
     }
 
     &__copyright {
@@ -75,5 +116,4 @@
         text-align: center;
         padding: 42px 0 41px;
     }
-
 }

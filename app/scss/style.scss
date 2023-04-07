@@ -201,9 +201,16 @@
     top: 0;
     bottom: 0;
     max-width: 694px;
+    width: 100%;
     background-color: #fff;
     padding-top: 40px;
-    width: 100%;
+    box-shadow: -2px 3px 17px 0px #000;
+    transition: all .6s;
+
+    &.rightside-menu--close {
+        transform: translateX(500%);
+
+    }
 
     &__close {
         background-color: transparent;

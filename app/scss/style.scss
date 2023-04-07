@@ -77,6 +77,15 @@
         margin-bottom: 22px;
         padding-left: 30px;
         display: inline-block;
+        position: relative;
+        &::before {
+            content: '';
+            background-image: url(../images/envelope.svg);
+            top: 8px;
+            left: 0;
+            width: 16px;
+            height: 12px;
+        }
     }
 
     &__form {
@@ -119,6 +128,14 @@
 
     &__social-link {
         padding-left: 28px;
+        position: relative; 
+        &::before{
+            content: '';
+            position: absolute;
+            left: 0;
+            width: 16px;
+            height: 16px;
+        }
     }
 
     &__social-item,

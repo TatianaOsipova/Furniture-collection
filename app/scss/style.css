@@ -150,6 +150,15 @@ body {
   margin-bottom: 22px;
   padding-left: 30px;
   display: inline-block;
+  position: relative;
+}
+.footer__info-email::before {
+  content: "";
+  background-image: url(../images/envelope.svg);
+  top: 8px;
+  left: 0;
+  width: 16px;
+  height: 12px;
 }
 .footer__form {
   display: flex;
@@ -193,6 +202,14 @@ body {
 }
 .footer__social-link {
   padding-left: 28px;
+  position: relative;
+}
+.footer__social-link::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  width: 16px;
+  height: 16px;
 }
 .footer__social-item, .footer__menu-item {
   margin-bottom: 15px;

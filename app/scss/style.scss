@@ -264,5 +264,13 @@
 }
 
 .top {
-    
+    &__slider-item{
+        display: flex;
+    }
+    &__slider-title{
+        color: $title;
+        font-size: 110px;
+        line-height: 135px;
+    }
+
 }

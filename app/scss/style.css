@@ -399,4 +399,13 @@ body {
 }
 .rightside-menu__images {
   max-width: 485px;
+}
+
+.top__slider-item {
+  display: flex;
+}
+.top__slider-title {
+  color: #363838;
+  font-size: 110px;
+  line-height: 135px;
 }/*# sourceMappingURL=style.css.map */

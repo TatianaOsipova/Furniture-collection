@@ -404,8 +404,23 @@ body {
 .top__slider-item {
   display: flex;
 }
+.top__slider-info {
+  max-width: 645px;
+}
 .top__slider-title {
   color: #363838;
   font-size: 110px;
   line-height: 135px;
+  padding-bottom: 26px;
+  margin-bottom: 26px;
+  position: relative;
+}
+.top__slider-title::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 185px;
+  height: 1px;
+  background: #6D7278;
 }/*# sourceMappingURL=style.css.map */

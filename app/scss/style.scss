@@ -266,6 +266,7 @@
 .top {
     &__slider-item{
         display: flex;
+        justify-content: center;
     }
     &__slider-info{
         max-width: 645px;

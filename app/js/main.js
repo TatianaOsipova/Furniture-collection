@@ -9,7 +9,8 @@ $(function () {
     
     $('.top__slider').slick({
         dots: true,
-        arrow: false,
+        arrows: false,
+        fade: true,
     });
 });
 

@@ -265,11 +265,16 @@
 
 .top {
     &__slider-item{
-        display: flex;
+        display: flex !important;
         justify-content: center;
+        align-items: center;
+    }
+    &__slider-img{
+        margin-left: -15%;
     }
     &__slider-info{
         max-width: 645px;
+        margin-left: 25px;
     }
     &__slider-title{
         color: $title;
@@ -287,6 +292,10 @@
             height: 1px;
             background: #6D7278;
         }
+    }
+    &__slider-text {
+        max-width: 585px;
+
     }
 
 }

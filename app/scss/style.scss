@@ -359,9 +359,9 @@
 
     &__item {
         position: relative;
-        transition: .5s;
-        &:hover{
-            .collection__info{
+
+        &:hover {
+            .collection__info {
                 opacity: 1;
             }
         }
@@ -385,16 +385,18 @@
         align-items: center;
         justify-content: center;
         opacity: 0;
+        transition: all .5s;
     }
 
-    &__info-title{
+    &__info-title {
         font-size: 20px;
         line-height: 25px;
         color: $title;
         padding-bottom: 19px;
         margin-bottom: 19px;
         position: relative;
-        &::after{
+
+        &::after {
             content: '';
             position: absolute;
             bottom: 0;
@@ -407,7 +409,7 @@
         }
     }
 
-    &__info-text{
+    &__info-text {
         font-weight: 600;
         font-size: 14px;
         color: #707070;

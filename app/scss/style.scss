@@ -267,7 +267,8 @@
     &__inner {
         padding-bottom: 70px;
         position: relative;
-        &::after{
+
+        &::after {
             content: '';
             position: absolute;
             background-image: url(../images/slider-bg.jpg);
@@ -317,7 +318,36 @@
 
     &__slider-text {
         max-width: 585px;
+    }
+}
 
+.new-collection {
+    text-align: center;
+    padding: 45px 0 1px 5px;
+
+    &__title {
+        color: $title;
+        font-size: 35px;
+        line-height: 51px;
+        padding-bottom: 25px;
+        margin-bottom: 25px;
+        position: relative;
+
+        &::after {
+            content: '';
+            position: absolute;
+            width: 250px;
+            height: 1px;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            margin: 0 auto;
+            background: #6D7278;
+        }
     }
 
+    &__text{
+        margin: 0 auto 30px;
+        max-width: 730px;
+    }
 }

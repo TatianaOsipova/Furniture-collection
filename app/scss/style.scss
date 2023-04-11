@@ -446,3 +446,15 @@
         max-width: 540px;
     }
 }
+
+.works-path{
+    padding: 80px 0 30px;
+    &__title{
+        text-align: center;
+        color: $title;
+        margin-bottom: 40px;
+        font-size: 36px;
+        line-height: 51px;
+    }
+
+}

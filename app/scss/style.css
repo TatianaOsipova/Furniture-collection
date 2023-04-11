@@ -567,10 +567,9 @@ body {
   background-image: url(../images/decor-bg.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  min-height: 600px;
 }
 .decor__title {
-  max-width: 540px;
+  max-width: 730px;
   color: #363838;
   font-size: 60px;
   line-height: 80px;
@@ -582,8 +581,9 @@ body {
   content: "";
   position: absolute;
   left: 0;
-  bottom: 0;
+  width: 200px;
   height: 1px;
+  bottom: 0;
   background: #6D7278;
 }
 .decor__text {

@@ -465,6 +465,7 @@
 
     &__items-box {
         display: flex;
+        align-items: start;
         border-bottom: 2px solid rgba($title, .7);
         position: relative;
         &::before{

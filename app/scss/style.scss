@@ -463,4 +463,25 @@
         line-height: 51px;
     }
 
+    &__items-box {
+        display: flex;
+        border-bottom: 2px solid rgba($title, .7);
+    }
+
+    &__item {
+        max-width: 250px;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    &__item-title {
+        margin-right: 13px;
+        color: $title;
+        @extend %title-font;
+    }
+
+    &__item-text {
+        margin-top: 12px;
+    }
 }

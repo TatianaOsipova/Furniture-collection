@@ -603,6 +603,17 @@ body {
 .works-path__items-box {
   display: flex;
   border-bottom: 2px solid rgba(54, 56, 56, 0.7);
+  position: relative;
+}
+.works-path__items-box::before {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: #363838;
 }
 .works-path__item {
   max-width: 250px;

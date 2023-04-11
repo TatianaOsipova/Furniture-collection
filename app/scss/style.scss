@@ -466,6 +466,17 @@
     &__items-box {
         display: flex;
         border-bottom: 2px solid rgba($title, .7);
+        position: relative;
+        &::before{
+            content: '';
+            position: absolute;
+            bottom: -5px;
+            left: 0;
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background-color: $title;
+        }
     }
 
     &__item {

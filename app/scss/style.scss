@@ -304,6 +304,7 @@
         padding-bottom: 26px;
         margin-bottom: 26px;
         position: relative;
+        @extend %title-font;
 
         &::after {
             content: '';
@@ -332,6 +333,7 @@
         padding-bottom: 25px;
         margin-bottom: 25px;
         position: relative;
+        @extend %title-font;
 
         &::after {
             content: '';
@@ -395,6 +397,7 @@
         padding-bottom: 19px;
         margin-bottom: 19px;
         position: relative;
+        @extend %title-font;
 
         &::after {
             content: '';
@@ -430,6 +433,7 @@
         padding-bottom: 22px;
         margin-bottom: 22px;
         position: relative;
+        @extend %title-font;
 
         &::after {
             content: '';
@@ -447,9 +451,11 @@
     }
 }
 
-.works-path{
+.works-path {
     padding: 80px 0 30px;
-    &__title{
+
+    &__title {
+        @extend %title-font;
         text-align: center;
         color: $title;
         margin-bottom: 40px;

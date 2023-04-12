@@ -622,8 +622,11 @@ body {
   flex-wrap: wrap;
   align-items: center;
 }
+.works-path__item--production {
+  margin-left: 317px;
+}
 .works-path__item-title {
-  margin-right: 13px;
+  margin-left: 13px;
   color: #363838;
 }
 .works-path__item-text {

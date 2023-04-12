@@ -465,10 +465,11 @@
 
     &__items-box {
         display: flex;
-        align-items: start;
+        align-items: flex-end;
         border-bottom: 2px solid rgba($title, .7);
         position: relative;
-        &::before{
+
+        &::before {
             content: '';
             position: absolute;
             bottom: -5px;
@@ -485,10 +486,33 @@
         display: flex;
         flex-wrap: wrap;
         align-items: center;
+        position: relative;
+        height: 100%;
     }
 
+    &__item--production {
+        margin-left: 317px;
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            height: 20px;
+            width: 2px;
+            background: rgba($title, .7);
+        }
+    }
+
+    &__item--production,
+    &__item--consultation{
+        padding-bottom: 30px;
+
+    }
+
+
+
     &__item-title {
-        margin-right: 13px;
+        margin-left: 13px;
         color: $title;
         @extend %title-font;
     }

@@ -602,7 +602,7 @@ body {
 }
 .works-path__items-box {
   display: flex;
-  align-items: start;
+  align-items: flex-end;
   border-bottom: 2px solid rgba(54, 56, 56, 0.7);
   position: relative;
 }
@@ -617,18 +617,45 @@ body {
   background-color: #363838;
 }
 .works-path__item {
-  max-width: 250px;
+  width: 250px;
   display: flex;
   flex-wrap: wrap;
   align-items: center;
+  position: relative;
+  height: 100%;
 }
 .works-path__item--production {
   margin-left: 317px;
+}
+.works-path__item--production::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  height: 20px;
+  width: 2px;
+  background: rgba(54, 56, 56, 0.7);
+}
+.works-path__item--production, .works-path__item--consultation {
+  padding-bottom: 38px;
+}
+.works-path__item--measuring {
+  padding-top: 38px;
+  margin-left: 305px;
+}
+.works-path__item--measuring::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 20px;
+  width: 2px;
+  background: rgba(54, 56, 56, 0.7);
 }
 .works-path__item-title {
   margin-left: 13px;
   color: #363838;
 }
 .works-path__item-text {
-  margin-top: 12px;
+  margin-top: 13px;
 }/*# sourceMappingURL=style.css.map */

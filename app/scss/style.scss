@@ -482,7 +482,7 @@
     }
 
     &__item {
-        max-width: 250px;
+        width: 250px;
         display: flex;
         flex-wrap: wrap;
         align-items: center;
@@ -492,7 +492,8 @@
 
     &__item--production {
         margin-left: 317px;
-        &::after{
+
+        &::after {
             content: '';
             position: absolute;
             bottom: 0;
@@ -504,9 +505,24 @@
     }
 
     &__item--production,
-    &__item--consultation{
-        padding-bottom: 30px;
+    &__item--consultation {
+        padding-bottom: 38px;
 
+    }
+
+    &__item--measuring {
+        padding-top: 38px;
+        margin-left: 305px;
+
+        &::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 20px;
+            width: 2px;
+            background: rgba($title, .7);
+        }
     }
 
 
@@ -518,6 +534,6 @@
     }
 
     &__item-text {
-        margin-top: 12px;
+        margin-top: 13px;
     }
 }

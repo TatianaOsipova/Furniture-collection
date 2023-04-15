@@ -33,6 +33,10 @@ dd {
   font-size: inherit;
 }
 
+li[class] {
+  list-style-type: none;
+}
+
 ul[class] {
   list-style: none;
 }

@@ -271,9 +271,22 @@
 
 // rightside-menu end
 
-.breadcrumbs{
+.breadcrumbs {
     background: rgba(#dfdfdf, .5);
     padding: 13px 14px;
+
+    &__list {
+        display: flex;
+    }
+
+    &__item::after {
+        content: '/';
+    }
+
+    &__link {
+        font-size: 14px;
+        color: $default;
+    }
 
 }
 

@@ -45,7 +45,8 @@
     &__list-link--active {
         padding-bottom: 4px;
         position: relative;
-        &::after{
+
+        &::after {
             content: '';
             position: absolute;
             bottom: 0;
@@ -703,21 +704,52 @@
 
 // about start
 
-.about{
-    &__prev{
+.about {
+    &__prev {
         background-image: url(../images/about-bg.jpg);
         background-repeat: no-repeat;
         background-position: top center;
         background-size: cover;
         text-align: center;
         padding: 160px 0;
-
+        margin-top: -53px;
     }
-    &__prev-title{
+
+    &__prev-title {
         color: $title;
         @extend %title-font;
         font-size: 60px;
         line-height: 80px;
+    }
+
+    &__content{
+        padding: 130px 0 40px;
+    }
+
+    &__title{
+        color: $title;
+        @extend %title-font;
+        font-size: 36px;
+        line-height: 60px;
+        padding-bottom: 22px;
+        margin-bottom: 22px;
+        position: relative;
+        &::after {
+            content: '';
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            width: 200px;
+            height: 1px;
+            background-color: #6d7278;
+        }
+
+
+    }
+    &__text{
+        p{
+
+        }
     }
 }
 

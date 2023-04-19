@@ -808,4 +808,16 @@ body {
   width: 200px;
   height: 1px;
   background-color: #6d7278;
+}
+.about__text {
+  padding-left: 284px;
+}
+.about__text p {
+  margin-bottom: 30px;
+}
+.about__popup {
+  background-image: url(../images/popup-bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top center;
 }/*# sourceMappingURL=style.css.map */

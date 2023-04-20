@@ -748,15 +748,21 @@
 
     &__text {
         padding-left: 284px;
+
         p {
             margin-bottom: 30px;
         }
     }
-    &__popup{
+
+    &__popup {
         background-image: url(../images/popup-bg.jpg);
         background-repeat: no-repeat;
         background-size: cover;
         background-position: top center;
+        min-height: 414px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 

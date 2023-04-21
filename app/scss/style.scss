@@ -770,4 +770,31 @@
 
 // inspiration start
 
+.inspiration{
+    &__inner{
+        display: flex;
+    }
+    &__title{
+        font-size: 36px;
+        line-height: 60px;
+        color: $title;
+        @extend %title-font;
+        padding-bottom: 16px;
+        margin-bottom: 24px;
+        position: relative;
+        &::after{
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            background: #6d7278;
+            width: 200px;
+            height: 1px;
+        }
+    }
+    &__text{
+
+    }
+}
+
 // inspiration end

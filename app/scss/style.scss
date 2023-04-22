@@ -773,6 +773,7 @@
 .inspiration{
     &__inner{
         display: flex;
+        justify-content: center;
     }
     &__title{
         font-size: 36px;
@@ -793,7 +794,13 @@
         }
     }
     &__text{
+        margin-bottom: 30px;
 
+
+
+    }
+    &__content{
+        max-width: 825px;
     }
 }
 

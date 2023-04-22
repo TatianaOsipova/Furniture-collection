@@ -1680,6 +1680,7 @@ body {
 
 .inspiration__inner {
   display: flex;
+  justify-content: center;
 }
 .inspiration__title {
   font-size: 36px;
@@ -1697,4 +1698,10 @@ body {
   background: #6d7278;
   width: 200px;
   height: 1px;
+}
+.inspiration__text {
+  margin-bottom: 30px;
+}
+.inspiration__content {
+  max-width: 825px;
 }/*# sourceMappingURL=style.css.map */

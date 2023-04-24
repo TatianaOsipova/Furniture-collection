@@ -420,6 +420,7 @@
 
     &__item {
         position: relative;
+        margin: 0 auto;
 
         &:hover {
             .collection__info {

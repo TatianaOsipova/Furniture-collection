@@ -771,9 +771,16 @@
 // inspiration start
 
 .inspiration {
+    padding-top: 100px;
     &__inner {
         display: flex;
         justify-content: center;
+        align-items: center;
+    }
+
+    &__images{
+        margin-right: 78px;
+        margin-left: -230px;
     }
 
     &__title {
@@ -798,9 +805,6 @@
 
     &__text {
         margin-bottom: 30px;
-
-
-
     }
 
     &__content {

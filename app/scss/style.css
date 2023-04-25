@@ -1,4 +1,4 @@
-.inspiration__title, .about__title, .about__prev-title, .blog-box__item-title, .blog-box__title, .works-path__item-title, .works-path__title, .decor__title, .collection__info-title, .new-collection__title, .top__slider-title, .rightside-menu__title, .footer__info-title, .menu__list-link {
+.inspiration__item, .inspiration__title, .about__title, .about__prev-title, .blog-box__item-title, .blog-box__title, .works-path__item-title, .works-path__title, .decor__title, .collection__info-title, .new-collection__title, .top__slider-title, .rightside-menu__title, .footer__info-title, .menu__list-link {
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
 }
@@ -1371,7 +1371,7 @@ body {
 
 .new-collection {
   text-align: center;
-  padding: 45px 0 105px;
+  padding: 45px 0 35px;
 }
 .new-collection__title {
   color: #363838;
@@ -1401,9 +1401,11 @@ body {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   gap: 30px;
+  padding-bottom: 70px;
 }
 .collection__item {
   position: relative;
+  margin: 0 auto;
 }
 .collection__item:hover .collection__info {
   opacity: 1;
@@ -1678,9 +1680,28 @@ body {
   align-items: center;
 }
 
+.inspiration {
+  padding-top: 100px;
+  position: relative;
+}
+.inspiration::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-image: url(../images/inspiration-bg.jpg);
+  height: 362px;
+  z-index: -1;
+}
 .inspiration__inner {
   display: flex;
   justify-content: center;
+  align-items: center;
+}
+.inspiration__images {
+  margin-right: 78px;
+  margin-left: -230px;
 }
 .inspiration__title {
   font-size: 36px;
@@ -1704,4 +1725,33 @@ body {
 }
 .inspiration__content {
   max-width: 825px;
+}
+.inspiration__item {
+  color: #363838;
+  line-height: 23px;
+  margin-bottom: 33px;
+}
+.inspiration__item-content {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 14px;
+  border-bottom: 2px solid #fff;
+  border-radius: 4px;
+}
+.inspiration__line {
+  height: 2px;
+  border-radius: 4px;
+  background-color: #363838;
+  margin-top: -2px;
+}
+
+.partners {
+  padding: 16px 0 60px;
+}
+.partners__items {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.partners__item {
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

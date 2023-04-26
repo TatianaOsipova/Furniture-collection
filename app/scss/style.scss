@@ -88,26 +88,6 @@
         max-width: 475px;
     }
 
-    &__info-email {
-        font-weight: 600;
-        font-size: 14px;
-        color: $title;
-        margin-bottom: 22px;
-        padding-left: 30px;
-        display: inline-block;
-        position: relative;
-
-        &::before {
-            content: '';
-            background-image: url(../images/envelope.svg);
-            top: 8px;
-            left: 0;
-            width: 16px;
-            height: 12px;
-            position: absolute;
-        }
-    }
-
     &__form {
         display: flex;
     }
@@ -884,7 +864,7 @@
 
 // contact start
 
-.map{
+.map {
     margin-top: -53px;
     margin-bottom: 50px;
 }

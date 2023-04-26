@@ -33,7 +33,7 @@ body {
 	padding: 0 15px;
 }
 
-.container-fluid{
+.container-fluid {
 	max-width: 1920px;
 	margin: 0 auto;
 	padding: 0 15px;
@@ -57,9 +57,30 @@ body {
 		padding: 0;
 		font-size: 0;
 	}
+
 	li.slick-active {
-		button{
+		button {
 			background-color: #ffef35;
 		}
+	}
+}
+
+.info-email {
+	font-weight: 600;
+	font-size: 14px;
+	color: $title;
+	margin-bottom: 22px;
+	padding-left: 30px;
+	display: inline-block;
+	position: relative;
+
+	&::before {
+		content: '';
+		background-image: url(../images/envelope.svg);
+		top: 8px;
+		left: 0;
+		width: 16px;
+		height: 12px;
+		position: absolute;
 	}
 }

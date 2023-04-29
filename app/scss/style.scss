@@ -1226,7 +1226,37 @@
         right: 13px;
         cursor: pointer;
     }
+}
 
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    &__list {
+        display: flex;
+
+    }
+
+    &__list-item {
+        margin: 0 6px;
+    }
+
+    &__arrow {
+        margin: 0 6px;
+    }
+
+    &__arrow--disabled {
+        display: none;
+    }
+    &__list-num{
+        font-weight: 600;
+        font-size: 14px;
+        color: #707070;
+    }
+    &__list-num--active{
+        color: $title;
+    }
 }
 
 // blog end

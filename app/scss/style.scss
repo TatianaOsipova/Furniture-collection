@@ -1065,6 +1065,34 @@
     &__social-item {
         margin-right: 20px;
     }
+
+    &__items {
+        max-width: 730px;
+    }
+
+    &__item{
+        margin-bottom: 80px;
+    }
+    &__item-img{
+        max-width: 730px;
+    }
+    &__item-info{
+        padding: 25px 0 10px;
+        font-weight: 600;
+        font-size: 14px;
+        color: #707070;
+        a{
+            color: inherit;
+        }
+    }
+    &__item-title{
+        font-size: 24px;
+        line-height: 38px;
+        margin-bottom: 6px;
+        color: $title;
+        @extend %title-font;
+    }
+    
 }
 
 .recent-posts {

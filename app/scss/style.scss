@@ -1247,15 +1247,17 @@
     }
 
     &__arrow--disabled {
-       opacity: 0;
-       pointer-events: none;
+        opacity: 0;
+        pointer-events: none;
     }
-    &__list-num{
+
+    &__list-num {
         font-weight: 600;
         font-size: 14px;
         color: #707070;
     }
-    &__list-num--active{
+
+    &__list-num--active {
         color: $title;
     }
 }
@@ -1264,9 +1266,24 @@
 
 // blog-one start
 
-.blog-one__item{
-    
+.blog-one__item {
+    p {
+        margin-bottom: 40px;
+    }
 
+    blockquote {
+        font-size: 24px;
+        font-weight: 300;
+        font-style: italic;
+        color: $title;
+        margin-bottom: 30px;
+        padding: 0 40px;
+    }
+
+    .blog__blockquote-author {
+        margin-right: auto;
+        margin-left: 0;
+    }
 }
 
 // blog-one end

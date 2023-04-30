@@ -1286,4 +1286,30 @@
     }
 }
 
+.blog-one {
+    &__tags {
+        margin-bottom: 30px;
+    }
+
+    &__tags-title {
+        color: $title;
+        @extend %title-font;
+        font-size: 20px;
+        line-height: 31px;
+        margin-bottom: 15px;
+    }
+
+    &__tags-link {
+        margin-bottom: 10px;
+        margin-right: 23px;
+        padding: 0 16px;
+        color: #8f8d8d;
+        font-size: 14px;
+        font-weight: 600;
+        border: 1px solid rgba(#454667 .5);
+        border-radius: 14px;
+        display: inline-block;
+    }
+}
+
 // blog-one end

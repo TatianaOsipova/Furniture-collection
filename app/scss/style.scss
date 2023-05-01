@@ -1337,11 +1337,19 @@
 
     &__link-prev {
         padding-left: 44px;
+        &::before{
+            background-image: url(../images/arrow-prev.svg);
+            left: 0;
+        }
     }
 
     &__link-next {
         padding-right: 44px;
         text-align: center;
+        &::before{
+            background-image: url(../images/arrow-next.svg);
+            right: 0;
+        }
     }
 }
 

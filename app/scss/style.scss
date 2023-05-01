@@ -1325,6 +1325,14 @@
         color: #707070;
         font-size: 14px;
         font-weight: 400;
+        &::before{
+            content: '';
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            width: 12px;
+            height: 23px;
+        }
     }
 
     &__link-prev {

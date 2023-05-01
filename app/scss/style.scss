@@ -1280,8 +1280,8 @@
         padding: 0 40px;
     }
 
-    .blog__blockquote-author::before {      
-        margin-right: auto;    
+    .blog__blockquote-author::before {
+        margin-right: auto;
         margin-left: 0;
     }
 }
@@ -1309,6 +1309,31 @@
         border: 1px solid rgba(#454667, .5);
         border-radius: 14px;
         display: inline-block;
+    }
+
+    &__links {
+        padding: 40px 0 32px;
+        border-top: 1px solid #dfdfdf;
+        border-bottom: 1px solid #dfdfdf;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    &__link {
+        width: 243px;
+        position: relative;
+        color: #707070;
+        font-size: 14px;
+        font-weight: 400;
+    }
+
+    &__link-prev {
+        padding-left: 44px;
+    }
+
+    &__link-next {
+        padding-right: 44px;
+        text-align: center;
     }
 }
 

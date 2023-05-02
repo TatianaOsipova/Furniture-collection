@@ -1401,8 +1401,19 @@
         color: #A1A1A1;
     }
 
+    &__form {
+        display: flex;
+        flex-wrap: wrap;
+    }
 
+    &__form-title {
+        margin-bottom: 25px;
+        color: $title;
+        @extend %title-font;
+        line-height: 23px;
+    }
 
+    &
 }
 
 // blog-one end

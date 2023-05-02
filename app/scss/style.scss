@@ -1317,6 +1317,7 @@
         border-bottom: 1px solid #dfdfdf;
         display: flex;
         justify-content: space-between;
+        margin-bottom: 35px;
     }
 
     &__link {
@@ -1325,7 +1326,8 @@
         color: #707070;
         font-size: 14px;
         font-weight: 400;
-        &::before{
+
+        &::before {
             content: '';
             position: absolute;
             top: 50%;
@@ -1337,7 +1339,8 @@
 
     &__link-prev {
         padding-left: 44px;
-        &::before{
+
+        &::before {
             background-image: url(../images/arrow-prev.svg);
             left: 0;
         }
@@ -1346,26 +1349,60 @@
     &__link-next {
         padding-right: 44px;
         text-align: center;
-        &::before{
+
+        &::before {
             background-image: url(../images/arrow-next.svg);
             right: 0;
         }
     }
 
-    .blog-one__title{
+    &__comments-title {
         color: $title;
         @extend %title-font;
         font-size: 20px;
         line-height: 31px;
-        margin-bottom: 20px;
-    }
-    &__comments-item{
-        display: flex;
-        justify-content: space-between;
-        
+        margin-bottom: 15px;
     }
 
-    
+    &__comments-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: start;
+        margin-bottom: 40px;
+    }
+
+    &__comments-avatar {
+        width: 64px;
+        height: 64px;
+        object-fit: cover;
+        border-radius: 50%;
+        margin-right: 13px;
+    }
+
+    &__reply {
+        background-color: transparent;
+        margin-left: 5px;
+        border: none;
+        padding: 0;
+        font-size: 14px;
+        font-weight: 600;
+        color: #707070;
+    }
+
+    &__comments-name {
+        color: $title;
+        @extend %title-font;
+        line-height: 23px;
+    }
+
+    &__comments-date {
+        margin-bottom: 10px;
+        font-size: 14px;
+        color: #A1A1A1;
+    }
+
+
+
 }
 
 // blog-one end

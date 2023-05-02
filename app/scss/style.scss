@@ -1351,6 +1351,21 @@
             right: 0;
         }
     }
+
+    .blog-one__title{
+        color: $title;
+        @extend %title-font;
+        font-size: 20px;
+        line-height: 31px;
+        margin-bottom: 20px;
+    }
+    &__comments-item{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+
+    
 }
 
 // blog-one end

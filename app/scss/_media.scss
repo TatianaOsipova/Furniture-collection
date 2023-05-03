@@ -1,26 +1,44 @@
 @media (max-width: 768px) {
-    .header__btn {
-        display: none;
+    .header {
+        &__btn {
+            display: none;
+        }
     }
 
-    .menu__list-item {
-        padding-left: 0;
+    .menu {
+        &__list-item {
+            padding-left: 0;
 
-        &+.menu__list-item {
-            padding-right: 0;
-
+            &+.menu__list-item {
+                padding-right: 0;
+            }
         }
     }
 
     .logo {
         margin: 0;
     }
-
 }
 
 @media (max-width: 540px) {
     .logo {
         order: -1;
+    }
+
+    .header {
+        &__btn-menu {
+            display: block;
+        }
+    }
+
+    .header__btn-menu {
+        display: block;
+    }
+
+    .menu {
+        &__list {
+            display: none;
+        }
     }
 
 }

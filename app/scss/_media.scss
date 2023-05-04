@@ -124,25 +124,24 @@
     }
 }
 
-@media (max-width: 375px){
-    .footer{
-        &__inner{
+@media (max-width: 375px) {
+    .footer {
+        &__inner {
             justify-content: space-between;
         }
 
-        &__social{
+        &__social {
             margin-left: 0;
         }
-        &__form{
+
+        &__form {
             display: block;
         }
-        &__form-button{
+
+        &__form-button {
             width: 100%;
             margin-left: 0;
             margin-top: 10px;
-            
         }
     }
-
-
 }

@@ -5,7 +5,7 @@
             line-height: 74px;
         }
 
-        &__sliger-img {
+        &__slider-img {
             height: 640px;
         }
     }
@@ -18,12 +18,25 @@
             width: 380px;
         }
     }
-
-
 }
 
-@media (max-width: 840px){
+@media (max-width: 840px) {
+    &__inner {
+        &::after {
+            width: 100%;
+        }
+    }
 
+    .top {
+        &__slider-title {
+            font-size: 44px;
+            line-height: 54px;
+        }
+
+        &__slider-img {
+            height: 540px;
+        }
+    }
 }
 
 @media (max-width: 768px) {
@@ -73,6 +86,10 @@
             margin-right: auto;
         }
     }
+}
+
+@media (max-width: 650px){
+    
 }
 
 @media (max-width: 540px) {

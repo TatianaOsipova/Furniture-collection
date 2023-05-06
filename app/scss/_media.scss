@@ -1,7 +1,8 @@
-@media (max-width: 1366px){
-    .collection{
+@media (max-width: 1366px) {
+    .collection {
         grid-template-columns: repeat(3, 1fr);
-        &__images{
+
+        &__images {
             width: 100%;
         }
     }
@@ -44,6 +45,12 @@
 
         &__slider-img {
             height: 540px;
+        }
+    }
+
+    @media (max-width: 1366px) {
+        .collection {
+            grid-template-columns: repeat(2, 1fr);
         }
     }
 }
@@ -180,6 +187,15 @@
             display: block;
             padding: 10px 0;
         }
+    }
+
+    .collection {
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    %title-font {
+        font-size: 28px;
+        line-height: 36px;
     }
 }
 

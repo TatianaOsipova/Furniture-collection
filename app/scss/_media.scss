@@ -48,11 +48,14 @@
         }
     }
 
-    @media (max-width: 1366px) {
-        .collection {
-            grid-template-columns: repeat(2, 1fr);
-        }
+    .collection {
+        grid-template-columns: repeat(2, 1fr);
     }
+
+    .works-path__item{
+        
+    }
+
 }
 
 @media (max-width: 768px) {
@@ -103,7 +106,7 @@
         }
     }
 
-    .decor{
+    .decor {
         padding: 70px 0 55px;
     }
 }

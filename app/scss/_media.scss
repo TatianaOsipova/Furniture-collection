@@ -191,6 +191,12 @@
             width: 100%;
         }
     }
+    .blog-box{
+        &__items{
+            display: block;
+        }
+    }
+
 }
 
 @media (max-width: 540px) {
@@ -276,13 +282,13 @@
     }
 
     .gallery {
-        &__items{
+        &__items {
             grid-template-columns: repeat(1, 1fr);
         }
-        &__item:first-child{
+
+        &__item:first-child {
             grid-column: 1;
             grid-row: 1;
-
         }
     }
 }

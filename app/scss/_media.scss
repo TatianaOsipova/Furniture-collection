@@ -33,6 +33,11 @@
         &__items {
             gap: 10px;
         }
+
+        &__btn {
+            margin: 0;
+            padding: 6px 10px;
+        }
     }
 
 
@@ -126,6 +131,16 @@
     .works-path {
         &__item--measuring {
             margin-left: 100px;
+        }
+    }
+
+    .gallery {
+        &__buttons {
+            display: grid;
+        }
+
+        &__btn {
+            margin-bottom: 10px;
         }
     }
 }

@@ -28,6 +28,14 @@
             width: 380px;
         }
     }
+
+    .gallery {
+        &__items {
+            gap: 10px;
+        }
+    }
+
+
 }
 
 @media (max-width: 840px) {
@@ -164,7 +172,7 @@
             order: 1;
         }
 
-        &__item{
+        &__item {
             width: 100%;
         }
     }
@@ -245,8 +253,8 @@
         line-height: 36px;
     }
 
-    .works-path{
-        &__item-title{
+    .works-path {
+        &__item-title {
             font-size: 16px;
             line-height: 27px;
         }

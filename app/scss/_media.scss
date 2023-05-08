@@ -258,9 +258,19 @@
             margin-bottom: 20px;
         }
     }
+
+    .contact{
+        &__form-input{
+            width: 100%;
+        }
+    }
 }
 
 @media (max-width: 540px) {
+    .menu__list-link--active::after{
+        display: none;
+    }
+
     .logo {
         order: -1;
         position: relative;

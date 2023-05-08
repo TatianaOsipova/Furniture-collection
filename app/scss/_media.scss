@@ -164,11 +164,11 @@
         }
     }
 
-    .partners{
-        &__items{
+    .partners {
+        &__items {
             grid-template-columns: repeat(2, 1fr);
         }
-    }   
+    }
 }
 
 @media (max-width: 650px) {
@@ -342,8 +342,8 @@
             grid-row: 1;
         }
 
-        &.gallery-page{
-            .gallery__item:nth-child(8){
+        &.gallery-page {
+            .gallery__item:nth-child(8) {
                 grid-column: 1;
                 grid-row: 1;
             }

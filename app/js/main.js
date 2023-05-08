@@ -11,7 +11,7 @@ $(function () {
         $('.menu').toggleClass('menu--open');
     });
 
-    if($(window).width() < 651){
+    if ($(window).width() < 651) {
         $('.works-path__item--measuring').appendTo($('.works-path__items-box'));
     }
 
@@ -27,6 +27,33 @@ $(function () {
         slidesToScroll: 10,
         dots: true,
         arrows: false,
+        responsive: [{
+                breakpoint: 1700,
+                settingh: {
+                    slidesToShow: 8,
+                    slidesToScroll: 8,
+
+                }
+            },
+            {
+                breakpoint: 1511,
+                settingh: {
+                    slidesToShow: 6,
+                    slidesToScroll: 6,
+
+                }
+            },
+            {
+                breakpoint: 480,
+                settingh: {
+                    slidesToShow: ,
+                    slidesToScroll: ,
+
+                }
+            },
+
+        ]
+
     });
 
     $('.article-slider__box').slick({

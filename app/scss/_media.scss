@@ -172,6 +172,12 @@
             grid-template-columns: repeat(2, 1fr);
         }
     }
+
+    .map {
+        iframe{
+            height: 300px;
+        }
+    }
 }
 
 @media (max-width: 650px) {

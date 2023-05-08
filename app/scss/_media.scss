@@ -1,3 +1,11 @@
+@media (max-width: 1700px) {
+    contact-slider{
+        &__img{
+            width: 100%;
+        }
+    }
+}
+
 @media (max-width: 1366px) {
     .collection {
         grid-template-columns: repeat(3, 1fr);

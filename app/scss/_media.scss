@@ -39,7 +39,27 @@
     }
 }
 
-@media (max-width: 1040px){
+@media (max-width: 1040px) {
+    .blog {
+        &__inner {
+            flex-wrap: wrap;
+        }
+
+        &__items {
+            max-width: 100%;
+        }
+        &__item-img{
+            max-width: 100%;
+            width: 100%;
+        }
+    }
+
+    .aside {
+        width: 100%;
+        margin-left: 0;
+        order: -1;
+        margin-bottom: 50px;
+    }
 
 }
 
